@@ -1,0 +1,18 @@
+BILLING FAQ
+
+Q: How do I change my credit card details?
+A: Log in to your Account Dashboard, navigate to Settings 
+   > Billing, and click "Update Payment Method".
+
+Q: Where can I download my invoices?
+A: Go to Settings > Billing > Invoice History. All past receipts
+   are available for download as PDF documents.
+
+Q: What billing cycles do you offer?
+A: We offer Monthly and Annual subscriptions.Annual subscriptions
+   come with a 20% discount.
+
+Q: What happens if a payment fails?
+A: Our system will retry the charge 3 times over a 7-day grace 
+   period. If unpaid after 7 days, subscription features will 
+   be temporarily paused.

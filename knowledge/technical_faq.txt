@@ -1,0 +1,21 @@
+TECHNICAL FAQ
+
+Q: How do I reset my password?
+A: Click "Forgot Password" on the login screen, enter your 
+   registered email, and follow the link sent to your inbox to 
+   reset your password.
+
+Q: What are the system requirements?
+A: Our platform supports modern browsers (Chrome 90+, Firefox 88+
+   , Safari 14+, Edge 90+) on Windows 10/11, macOS 11+, Linux, 
+   iOS, and Android.
+
+Q: How do I resolve Error Code 500 or Connection Timeout?
+A: Clear your browser cache and cookies, disable conflicting 
+   browser extensions, and verify your network connection. If 
+   issue persists, check status.example.com for service 
+   maintenance updates.
+
+Q: Can I integrate using API keys?
+A: Yes, API keys can be generated under Developer Settings > API
+   Keys. See our documentation for full REST API specs.
