@@ -53,12 +53,27 @@ def run_pipeline(email_path: str):
 
     # 3. Generate Reply
     reply = generate_reply(email_content, category, escalation_info)
+
     print("\n[3] Generated Response:")
     print("=" * 60)
     print(reply)
     print("=" * 60)
 
-    return {"category": category, "escalation": escalation_info, "reply": reply}
+
+    # 4. Guardrail Check
+    final_response = check_response(reply)
+
+    print("\n[4] Final Response After Guardrail:")
+    print("=" * 60)
+    print(final_response)
+    print("=" * 60)
+
+
+    return {
+        "category": category,
+        "escalation": escalation_info,
+        "reply": final_response
+    }
 
 
 def main():
