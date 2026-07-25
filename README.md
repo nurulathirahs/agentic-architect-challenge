@@ -24,14 +24,17 @@ email-classifier-agent/
 ├── README.md                   # Project documentation and usage guide
 ├── agents/
 │   ├── classify_email.py       # Email classification agent
-│   ├── escalation.py           # Human escalation detection agent
+│   ├── escalation.py           # Human escalation detection 
+│   ├── guardrail.py            # Sensitive information detection 
+agent
 │   └── generate_reply.py       # Knowledge-aware reply generation agent
 ├── knowledge/
 │   ├── refund_policy.txt       # Policy guidelines for refund requests
 │   ├── billing_faq.txt         # FAQs for payment & billing inquiries
 │   └── technical_faq.txt       # Troubleshooting guide for technical issues
 ├── sample_data/
-│   └── email1.txt              # Sample customer email for testing
+│   └── email1.txt              # Sample customer email
+│   └── email2.txt              # Sample email guardrail
 └── .github/
     └── workflows/
         └── test.yml            # GitHub Actions CI workflow
