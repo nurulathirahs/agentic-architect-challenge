@@ -47,9 +47,9 @@ agent
 ### Prerequisites
 - Python 3.8 or higher installed on your system.
 
-### Step 1: Navigate to Project Directory
+### Step 1: Clone this repository
 ```bash
-cd email-classifier-agent
+git clone https://github.com/username/agentic-architect-challenge.git
 ```
 
 ### Step 2: Install Dependencies
