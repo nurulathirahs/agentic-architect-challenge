@@ -16,6 +16,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from agents.classify_email import classify_email
 from agents.escalation import check_escalation
 from agents.generate_reply import generate_reply
+from agents.guardrail import check_response
 
 
 def run_pipeline(email_path: str):
